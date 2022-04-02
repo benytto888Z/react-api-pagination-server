@@ -1,4 +1,4 @@
-require("dotenv").config({ path: "./config.env" });
+require("dotenv").config({ path: "./config/config.env" });
 const fs = require("fs");
 const Post = require("../models/Post");
 const connectDB = require("../config/db");
